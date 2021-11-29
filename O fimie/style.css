@@ -1,0 +1,595 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+    transition: color 0.05s ease-in-out, background-color 0.2s ease-in-out, opacity 0.5s ease-in-out, background-size 0.3s ease-in-out;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+span {
+    line-height: 25px;
+}
+
+a {
+    text-decoration:none;
+    color:limegreen;
+    background-image: linear-gradient(90deg, transparent,limegreen,transparent);
+    background-size: 0% 1px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+a:hover:not(.back) {
+    background-size: 100% 1px;
+}
+
+body {
+    background-image: linear-gradient(-45deg, #040412, #080822, #040412);
+    color: white;
+    overflow-x: hidden;
+}
+
+header .logo {
+    width: 80%;
+    margin: auto;
+    display:block;
+}
+
+.podstrony {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom:10px;
+    flex-wrap: 3;
+}
+
+.podstrony a {
+    color: lightgray;
+}
+.podstrony figure {
+    width:1px;
+    height:20px;
+    object-fit:cover;
+    background-color: limegreen;
+    display:block;
+}
+
+.znika {
+    display:none
+}
+.mainheader img {
+    width:200%;
+    height:auto;
+    margin-left:-50%;
+    box-shadow: 0 0 10px gray;
+}
+
+.mainheader div {
+    margin-top: -45px;
+    margin-left:30px;
+    color:white;
+    text-shadow:
+    0 0 2px black,
+    0 0 5px black;
+}
+
+
+h2 {
+    color: limegreen;
+    margin-bottom: 10px;
+}
+
+.liniapozioma {
+    width: 80%;
+    margin: 20px auto;
+    height: 1px;
+    color: transparent;
+    background-color:gray
+}
+
+
+
+
+
+.tresc {
+    display:block;
+    margin:20px 18px;
+    text-align:center;
+}
+
+.tresc span {
+    margin: 20px 0;
+    display:block;
+}
+
+.tresc span bold {
+    font-weight:bold;
+}
+
+
+
+.partnerzy {
+    padding-top:10px;
+    height:15em;
+    background-color:#101022;
+    box-shadow: 0 0 0.5em #101022;
+}
+
+.partnerzy h2 {
+    text-align: center;
+}
+
+.fuck {
+    text-align:center;
+    margin: 0 7%;
+    color:white;
+    font-size:16px;
+}
+
+.partnerzy .liniapozioma {
+    width:60%
+}
+
+.loga {
+    margin:0 auto;
+    width:320px;
+    height:100px;
+    background-color:lightgray;
+    display:flex;
+    border-radius:10px;
+    overflow: hidden;
+}
+
+.logo1 {
+    margin-left:0px;
+    animation: slider 60s ease-in-out infinite;   
+}
+
+.end p {
+    font-size:10px;
+    line-height:20px;
+    text-align: center;
+    margin-bottom:20px;
+}
+.end p a {
+    font-weight:bold
+}
+
+.end img {
+    width:40%;
+    display: block;
+    margin: 0 auto;
+}
+
+@keyframes slider {
+    0% {
+        margin-left:0px;
+    }
+    2.9411% {
+        margin-left: -160px
+    }
+    5.8822% {
+        margin-left: -320px
+    }
+    8.8233% {
+        margin-left: -480px
+    }
+    11.7644% {
+        margin-left: -640px
+    }
+    14.7055% {
+        margin-left: -800px
+    }
+    17.6466% {
+        margin-left: -960px
+    }
+    20.5877% {
+        margin-left: -1120px
+    }
+    23.5288% {
+        margin-left: -1280px
+    }
+    26.4699% {
+        margin-left: -1440px
+    }
+    29.411% {
+        margin-left: -1600px
+    }
+    32.3521% {
+        margin-left: -1760px
+    }
+    35.2932% {
+        margin-left: -1920px
+    }
+    38.2343% {
+        margin-left: -2080px
+    }
+    41.1754% {
+        margin-left: -2240px
+    }
+    44.1165% {
+        margin-left: -2400px
+    }
+    47.0576% {
+        margin-left: -2560px
+    }
+    49.9987% {
+        margin-left: -2720px
+    }
+    52.9398% {
+        margin-left: -2880px
+    }
+    55.8809% {
+        margin-left: -3040px
+    }
+    58.822% {
+        margin-left: -3200px
+    }
+    61.7631% {
+        margin-left: -3360px
+    }
+    64.7042% {
+        margin-left: -3520px
+    }
+    67.6453% {
+        margin-left: -3680px
+    }
+    70.5864% {
+        margin-left: -3840px
+    }
+    73.5275% {
+        margin-left: -4000px
+    }
+    74.2846% {
+        margin-left: -4160px
+    }
+    76.4686% {
+        margin-left: -4320px
+    }
+    79.4097%{
+        margin-left: -4480px
+    }
+    82.3508% {
+        margin-left: -4640px
+    }
+    85.2919% {
+        margin-left: -4800px
+    }
+    88.233% {
+        margin-left: -4960px
+    }
+    91.17412% {
+        margin-left: -5120px
+    }
+    94.284394.1152% {
+        margin-left: -5280px
+    }
+    97.0563% {
+        margin-left: -5440px
+    }
+    100% {
+        margin-left: -5600px;
+    }
+}
+
+.back {
+    display:block;
+    width:40px;
+    height:40px;
+    background-image:url(/images/arrow2.png);
+    position:fixed;
+    right: 10px;
+    bottom:10px;
+    z-index:1000;
+    background-size: 100%;
+}
+
+.back:hover {
+    scale:1.1;
+    background-size: 100%;
+}
+
+/* Niżej jest slider od reklam*/
+
+.slider {
+    width:292px;
+    height:280px;
+    background-color: #334;
+    outline: limegreen 5px solid;
+    outline-offset: 5px;
+    border-radius:15px;
+    position:relative;
+    margin: 0 auto;
+    margin-top:3%;
+}
+
+#i1, #i2, #i3, #i4, #i5, #i6, #i7, #i8 {
+    display:none
+}
+
+.kontener {
+    width:100%;
+    position:absolute;
+    height:100%;
+    opacity:0%;
+}
+
+.kontener img {
+    width:100%;
+    height:100%;
+    border-radius:15px
+}
+
+#i1, #i2, #i3, #i4, #i5, #i6, #i7, #i8 {
+    display:none;
+}
+.nav {
+    width:100%;
+    height:18px;
+    bottom:-12%;
+    position: absolute;
+    text-align:center;
+    z-index:99;
+    cursor: default;
+    display:flex;
+    justify-content:center;
+}
+
+.dots {
+    top: -5px;
+    width: 14px;
+    height: 14px;
+    margin: 10px;
+    position:relative;
+    border-radius: 50%;
+    display:inline-block;
+    background-color:transparent;
+    cursor: pointer;
+    outline: 2px #222 solid;
+    outline-offset: 2px;
+    transition: 0.3s;
+}
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three,
+#i4:checked ~ #four,
+#i5:checked ~ #five,
+#i6:checked ~ #six,
+#i7:checked ~ #seven, 
+#i8:checked ~ #eight {
+    opacity:100%;
+    z-index:9;
+
+}
+
+#i1:checked ~ .nav #dot1,
+#i2:checked ~ .nav #dot2,
+#i3:checked ~ .nav #dot3,
+#i4:checked ~ .nav #dot4,
+#i5:checked ~ .nav #dot5,
+#i6:checked ~ .nav #dot6,
+#i7:checked ~ .nav #dot7,
+#i8:checked ~ .nav #dot8 {
+    background-color: limegreen;
+    width:18px;
+    height:18px;
+}
+
+.kontener div {
+    margin: 0 auto;
+    margin-top:1%;
+    width:90%;
+}
+
+.kontener div span {
+    margin-top:5px;
+    display:block;
+    font-size: 15px;
+    line-height:20px;
+}
+
+.kontener div a {
+    margin-top:7px;
+    display:block;
+    text-decoration:none;
+    color:limegreen;
+    width:117px;
+    font-size: 14px;
+}
+
+h3 {
+    color:limegreen;
+}
+
+.kontener div p {
+    font-size:12px;
+    margin-top:7px;
+}
+@media only screen and (min-width:657px) {
+    header {
+        margin-bottom:3%;
+        font-size: 20px;
+    }
+
+    header .logo {
+        width:40%;
+    }
+
+    .znika {
+        display:block;
+    }
+
+    .podstrony {
+        margin: 0 2%;
+    }
+
+    .podstrony .div1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom:10px;
+    }
+
+    .podstrony div {
+        width:100%;
+    }
+
+
+    .tresc {
+        width:60%;
+        margin: 0 auto;
+    }
+
+
+
+    .loga {
+        width:480px;
+    }
+
+    /* Slider od reklam */
+
+    .slider {
+        width:580px;
+        height:430px;
+        background-color: #334;
+    }
+
+    .kontener div {
+        margin-top:3%;
+    }
+    
+    .kontener div span {
+        margin-top:10px;
+        font-size: 20px;
+        line-height:30px;
+    }
+    
+    .kontener div a {
+        margin-top:15px;
+        font-size: 17px;
+    }
+
+    h3 {
+        font-size:25px;
+    }
+
+    .kontener div p {
+        font-size:15px;
+        margin-top:10px;
+    }
+
+    .dots {
+        margin: 0 10px;
+    }
+
+}
+@media only screen and (min-width:1360px) {
+    header {
+        margin-bottom:100px;
+        width:80%;
+    }
+
+    header .logo {
+        width:360px;
+        margin:0;
+        margin-left:22%;
+        margin-top:0px;
+        float:left;
+    }
+
+    .podstrony {
+        width:50%;
+        margin-top:35px;
+        margin-right: -90px;
+        float:right;
+    }
+
+    .podstrony figure {
+        margin: 0 10px;
+    }
+
+    .mainheader img {
+        width:130%;
+        margin-left:-10%;
+    }
+    .mainheader div {
+        margin-left:22%;
+        font-size:18px;
+        margin-top:-50px;
+    }
+ 
+    .loga {
+        width:800px;
+    }
+
+    .partnerzy .liniapozioma {
+        width:600px
+    }
+
+    .end p {
+        font-size:15px;
+    }
+    .end img {
+        width:30%;
+        
+    }
+
+    /* Slider od reklam */
+
+    .slider {
+        width:25%;
+        height:320px;
+        margin-left:54%;
+        margin-top:100px;
+    }
+    
+    .nav {
+        height:11px;
+        bottom:-12%;
+        align-items:center;
+    }
+    
+    .dots {
+        width: 20px;
+        height:20px;
+        margin:0 7px;
+        margin-top:10px;
+        outline-offset: 0px;
+    }
+    
+    #i1:checked ~ .nav #dot1,
+    #i2:checked ~ .nav #dot2,
+    #i3:checked ~ .nav #dot3,
+    #i4:checked ~ .nav #dot4,
+    #i5:checked ~ .nav #dot5,
+    #i6:checked ~ .nav #dot6,
+    #i7:checked ~ .nav #dot7,
+    #i8:checked ~ .nav #dot8 {
+        width:25px;
+        height:25px;
+        outline-offset: 4px;
+    }
+    
+    .kontener div {
+        margin-top:3%;
+        width:80%;
+    }
+    
+    .kontener div span {
+        margin-top:10px;
+        font-size: 17px;
+    }
+    
+    .kontener div a {
+        margin-top:10px;
+    }
+    
+    .kontener div p {
+        margin-top:10px;
+    }
+}
